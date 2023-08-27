@@ -20,8 +20,8 @@ Biosignal processing plays a pivotal role in extracting meaningful information f
 
 One significant application of biosignal processing lies in the analysis of physiological signals such as electrocardiograms (ECGs), electroencephalograms (EEGs), and electromyograms (EMGs). These signals often contain noise and artifacts that can obscure critical information. Through techniques like wavelet decomposition, as seen in the provided code snippet, unwanted noise can be effectively removed, enhancing the accuracy of subsequent analyses. Moreover, biosignal processing enables the extraction of features that aid in diagnosing various conditions. For instance, irregularities in an ECG signal can indicate cardiac arrhythmias, and specific patterns in EEG signals can help identify neurological disorders.
 
-In the context of the provided code snippet, the process of decomposing, thresholding, and reconstructing biosignals from the abdomen exemplifies the essence of biosignal processing. The code snippet employs the PyWavelets library to apply the Daubechies 8 wavelet for decomposition, followed by thresholding to remove noise, and finally, signal reconstruction. This type of preprocessing is invaluable in enhancing the quality of signals, which can lead to more accurate analysis and interpretation.
-Here is some code that illustrates how we read values from the line sensors:
+In the context of the provided code snippet, the process of decomposing, thresholding, and reconstructing biosignals from the noisy ECG or other signals exemplifies the essence of biosignal processing. The code snippet employs the PyWavelets library to apply the Daubechies 8 wavelet for decomposition, followed by thresholding to remove noise, and finally, signal reconstruction. This type of preprocessing is invaluable in enhancing the quality of signals, which can lead to more accurate analysis and interpretation.
+Here is some code that illustrates how we can preprocess the signals:
 
 ```cpp
 import numpy as np
