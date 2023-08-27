@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/micromouse/micromouse-square.jpg
+image: img/preproc.png
 title: "The Importance of Biosignal Processing"
 date: 2023
 published: true
