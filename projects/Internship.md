@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image:  img/Picture9.png
+image:  img/5.png
 title: "Dimension Reduction"
 date: 
 published: true
