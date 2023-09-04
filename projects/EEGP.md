@@ -4,7 +4,7 @@ type: project
 image: img/cotton/cotton-square.png
 title: "EEG Preprocessing"
 date: 
-published: false
+published: true
 labels:
   - Lisp
   - GitHub
