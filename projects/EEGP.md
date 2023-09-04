@@ -78,7 +78,7 @@ EEG preprocessing is a crucial step in the analysis of electroencephalography (E
 
         <p class="highlight"> Happe pipeline for EEG preprocessing. It is a standardized, automated pipeline that can process EEG data from raw files to processed EEG suitable for time-frequency-domain analyses. It is specially designed for developmental and high-artifact data, such as those from young children or those with neurodevelopmental disorders.</p>
 
-        <img src="..img/2.jpg" alt="EEG Preprocessing" width="80%">
+        <img class="img-fluid" src="../img/2.jpg">
 
         <h2>The Happe Pipeline in Four Steps</h2>
         <p>The Happe pipeline consists of four main steps: pre-process, check, generate, and validate. Each step plays a crucial role in preparing EEG data for meaningful analysis.</p>
