@@ -93,7 +93,7 @@ EEG preprocessing is a crucial step in the analysis of electroencephalography (E
         <p>3. <strong>Generate</strong>: The generating step involves the extraction of specific features of interest from the pre-processed EEG data. This can include event-related potentials (ERPs) or resting-state power spectra, depending on the research objectives. These extracted features are vital for subsequent analyses.</p>
 
         <p>4. <strong>Validate</strong>: The final step, validate, compute data quality metrics and generate comprehensive reports for each processed EEG file. This transparency is essential for documenting the quality of the data and the preprocessing steps, ensuring rigor and reproducibility in EEG research.</p>
-<img class="img-fluid" src="../img/3.jpg">
+<img class="img-fluid" src="../img/3.png">
      
         
 
@@ -102,7 +102,7 @@ EEG preprocessing is a crucial step in the analysis of electroencephalography (E
 
         <p>Additionally, the Happe pipeline provides a consistent and transparent way of reporting data quality measures. This is crucial for EEG research, as the quality of the data greatly influences the reliability of subsequent analyses. By offering a standardized approach, the Happe pipeline promotes best practices and ensures that researchers can trust their results.</p>
 
-<img class="img-fluid" src="../img/4.jpg">
+<img class="img-fluid" src="../img/4.png">
         <h2>Conclusion</h2>
         <p>In the realm of EEG research, the Happe pipeline stands as a robust and reliable tool for data preprocessing. Its four-step approach, including pre-processing, checking, generating, and validating, ensures that EEG data is cleaned, analyzed, and validated with the utmost precision. Researchers can have confidence in the quality of their data and the transparency of their methods, ultimately leading to more meaningful insights into brain activity.</p>
 
