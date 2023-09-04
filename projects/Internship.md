@@ -96,16 +96,6 @@ summary: "Dimension reduction is a fundamental technique in AI and deep learning
   
 </video>
 
-       <h2>My project</h2>
-
-    <h3>EEG Data Preprocessing with the Happe Pipeline</h3>
-    <p>The project begins with the acquisition of EEG data from 53 channels, each capturing electrical activity from different areas of the brain. To ensure the reliability and quality of the data, the Happe pipeline is employed for preprocessing. The Happe pipeline is a robust and widely used method for cleaning and preparing EEG data. It involves several steps such as noise removal, artifact correction, and referencing, all of which are essential for obtaining meaningful results in subsequent analyses.</p>
-    <img class="img-fluid" src="../img/10.png">
-
-    <h3>Segmentation for Volume Conductance Reduction</h3>
-    <p>One crucial aspect of this project is the division of the EEG electrodes into 12 segments. This segmentation is performed with the goal of reducing volume conduction effects. Volume conduction occurs when electrical signals from one electrode spread to neighboring electrodes, leading to the possibility of spurious connectivity in subsequent analyses. By dividing the electrodes into segments, the project aims to mitigate these effects and improve the accuracy of connectivity analysis.</p>
-     <img class="img-fluid" src="../img/6.png">
-</body>
 
 
 <hr>
