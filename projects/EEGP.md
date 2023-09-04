@@ -6,8 +6,8 @@ title: "EEG Preprocessing"
 date: 
 published: true
 labels:
-  - Lisp
-  - GitHub
+  - EEG
+  - Preprocessing
 summary: "EEG Preprocessing."
 ---
 
