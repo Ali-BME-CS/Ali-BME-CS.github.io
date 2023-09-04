@@ -20,7 +20,7 @@ EEG preprocessing is a crucial step in the analysis of electroencephalography (E
 <html>
 <head>
     <title>The Happe Pipeline: EEG Preprocessing for Robust Data Analysis</title>
-    <style>
+      <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -42,23 +42,24 @@ EEG preprocessing is a crucial step in the analysis of electroencephalography (E
             padding: 10px;
         }
 
-        p {
-            padding: 10px;
-            margin: 0;
-        }
-
-        img {
-            display: block;
-            margin: 0 auto;
-            max-width: 80%;
-        }
-
         .container {
             max-width: 800px;
             margin: 20px auto;
             padding: 20px;
             background-color: white;
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        p {
+            padding: 10px;
+            margin: 0;
+            text-align: justify;
+        }
+
+        img {
+            display: block;
+            margin: 0 auto;
+            max-width: 80%;
         }
 
         .highlight {
