@@ -92,7 +92,7 @@ summary: "Dimension reduction is a fundamental technique in AI and deep learning
  <img class="img-fluid" src="../img/6.png">
         <p>Neuroscience is a field that aims to understand how the brain generates behavior. However, analyzing the complex and high-dimensional data from behavioral and neural experiments is a challenging task. Traditional methods often rely on linear models or hand-crafted features, which may not capture the non-linear and dynamic relationships between behavior and neural activity. In this paper, the authors propose a novel method called CEBRA, which stands for Consistent EmBeddings of high-dimensional Recordings using Auxiliary variables. CEBRA uses self-supervised learning to jointly analyze behavioral and neural data in a non-linear way and produces latent spaces that reveal underlying correlates of behavior. CEBRA leverages auxiliary variables, such as time or stimulus identity, to enforce consistency across different modalities and conditions. The authors demonstrate the utility of CEBRA for various datasets and tasks in neuroscience, such as mapping of space, kinematic features, and natural movies. They show that CEBRA can discover meaningful latent factors that are shared or specific to behavior and neural activity and can be used for downstream analysis such as decoding or clustering.</p>
 <video class="img-fluid" controls>
-    <source src="..img/41586_2023_6031_MOESM4_ESM.mp4" type="video/mp4">
+    <source src="../img/41586_2023_6031_MOESM4_ESM.mp4" type="video/mp4">
   
 </video>
 
