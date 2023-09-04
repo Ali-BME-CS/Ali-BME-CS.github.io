@@ -1,3 +1,16 @@
+---
+layout: project
+type: project
+image: img/5.png
+title: "Dimension Reduction"
+date: 
+published: true
+labels:
+  - Machine Learning
+  - Signal Processing
+  - Deep Learning
+summary: "Dimension reduction is a fundamental technique in AI and deep learning that plays a crucial role in simplifying complex data representations."
+---
 <html>
 <head>
     <title>Dimension Reduction in AI and Deep Learning</title>
