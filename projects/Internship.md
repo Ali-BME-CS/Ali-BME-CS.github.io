@@ -16,7 +16,10 @@ summary: "Dimension reduction is a fundamental technique in AI and deep learning
     <title>Dimension Reduction in AI and Deep Learning</title>
 </head>
 <body>
-  
+  <div class="text-center p-4">
+  <img width="400px" src="../img/5.png" class="img-thumbnail" >
+</div>
+
 <h1>Dimension Reduction in AI and Deep Learning</h1>
     <div class="container">
         <h2>Introduction</h2>
