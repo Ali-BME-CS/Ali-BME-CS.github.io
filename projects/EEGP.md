@@ -113,4 +113,4 @@ EEG preprocessing is a crucial step in the analysis of electroencephalography (E
 
 <hr>
 
-Source: <a href="https://github.com/jogarces/ics-313-text-game"><i class="large github icon "></i>jogarces/ics-313-text-game</a>
+Source: <a href="https://github.com/PINE-Lab/HAPPE" target="_blank">GitHub repository</a> dedicated to this topic.</p>
