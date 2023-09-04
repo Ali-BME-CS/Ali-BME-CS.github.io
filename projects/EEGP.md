@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/1.png
+image: img/7.png
 title: "EEG Preprocessing"
 date: 
 published: true
