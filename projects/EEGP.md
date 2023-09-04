@@ -13,7 +13,7 @@ summary: "EEG Preprocessing."
 
 <img class="img-fluid" src="../img/1.png">
 
-EEG preprocessing is a crucial step in the analysis of electroencephalography (EEG) data, which are recordings of the electrical activity of the brain. EEG data are often contaminated by various sources of noise and artifact, such as eye blinks, muscle movements, power line interference, and environmental factors. These unwanted signals can distort the true neural activity and affect the validity and reliability of the results. Therefore, EEG preprocessing aims to remove or reduce the noise and artifact from the raw EEG data, while preserving the signal of interest. This can enhance the signal-to-noise ratio and improve the detection of brain responses to stimuli or tasks. EEG preprocessing also involves standardizing and organizing the data for further analysis, such as extracting features, applying statistical tests, or performing machine learning. In this essay, we will review the main methods and challenges of EEG preprocessing, and discuss some examples of how it can influence the outcomes of EEG research.
+EEG preprocessing is a crucial step in the analysis of electroencephalography (EEG) data, which are recordings of the electrical activity of the brain. EEG data are often contaminated by various sources of noise and artifacts, such as eye blinks, muscle movements, power line interference, and environmental factors. These unwanted signals can distort the true neural activity and affect the validity and reliability of the results. Therefore, EEG preprocessing aims to remove or reduce the noise and artifacts from the raw EEG data, while preserving the signal of interest. This can enhance the signal-to-noise ratio and improve the detection of brain responses to stimuli or tasks. EEG preprocessing also involves standardizing and organizing the data for further analysis, such as extracting features, applying statistical tests, or performing machine learning. In this essay, we will review the main methods and challenges of EEG preprocessing, and discuss some examples of how it can influence the outcomes of EEG research.
 
 <hr>
 
@@ -78,7 +78,7 @@ EEG preprocessing is a crucial step in the analysis of electroencephalography (E
 
         <p class="highlight"> Happe pipeline for EEG preprocessing. It is a standardized, automated pipeline that can process EEG data from raw files to processed EEG suitable for time-frequency-domain analyses. It is specially designed for developmental and high-artifact data, such as those from young children or those with neurodevelopmental disorders.</p>
 
-        <img src="eeg_preprocessing.png" alt="EEG Preprocessing" width="80%">
+        <img src="..img/2.jpg" alt="EEG Preprocessing" width="80%">
 
         <h2>The Happe Pipeline in Four Steps</h2>
         <p>The Happe pipeline consists of four main steps: pre-process, check, generate, and validate. Each step plays a crucial role in preparing EEG data for meaningful analysis.</p>
