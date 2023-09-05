@@ -37,6 +37,14 @@ summary: "Dimension reduction is a fundamental technique in AI and deep learning
         <video class="img-fluid" controls>
             <source src="../img/41586_2023_6031_MOESM4_ESM.mp4" type="video/mp4">
         </video>
+        <h2> My project</h2>
+<p>This project focuses on developing a novel approach for EEG source separation by combining Independent Component Analysis (ICA) with deep learning techniques. We aim to create a learnable latent space that can effectively extract and represent the source signals from EEG data.</p>
+
+<p>Our methodology involves utilizing self-supervised learning techniques, specifically a contrastive learning objective, to enhance the separation of EEG source signals. By leveraging this approach, we seek to uncover meaningful patterns and correlations within the EEG data, ultimately improving our ability to distinguish and analyze individual source components.</p>
+
+<p>This project represents an innovative step towards improving EEG source separation, with potential applications in neuroscience research, brain-computer interfaces, and clinical diagnostics.</p>
+<img class="img-fluid" src="../img/7.png">
+
         <hr>
         You can find the paper here: <a href="https://www.nature.com/articles/s41586-023-06031-6">paper</a>.
     </div>
