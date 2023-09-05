@@ -8,7 +8,7 @@ published: true
 labels:
   - Machine Learning
   - Signal Processing
-  - Deep Learning
+  - Wearable Device
 summary: "an innovative non-invasive recording device leveraging respiratory rate, SpO2, and heart rate data to accurately classify sleep apnea, arousal, and hypopnea events, outperforming existing methods with impressive AUC values."
 ---
 <html>
@@ -65,8 +65,5 @@ summary: "an innovative non-invasive recording device leveraging respiratory rat
 <p>The paper discussed in this essay presents a pioneering approach to sleep apnea detection and classification. By utilizing non-invasive recording devices and machine learning models, the researchers have achieved remarkable results, outperforming existing methods in accurately identifying sleep apnea, arousal, and hypopnea events. This work has significant implications for the field of sleep medicine, offering a non-invasive and effective solution for diagnosing and managing sleep disorders, ultimately improving the quality of life for individuals affected by sleep apnea. As technology and research in this area continue to advance, we can expect further innovations that will enhance our understanding and treatment of sleep-related health issues.</p>
 
 </body>
-</html>
 
-    </div>
-</body>
 </html>
