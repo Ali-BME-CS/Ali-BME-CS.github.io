@@ -38,7 +38,7 @@ summary: "Dimension reduction is a fundamental technique in AI and deep learning
             <source src="../img/41586_2023_6031_MOESM4_ESM.mp4" type="video/mp4">
         </video>
         <hr>
-        You can find the paper here: <a href="https://manoa.hawaii.edu/news/article.php?aId=2857">UH Micromouse News Announcement</a>.
+        You can find the paper here: <a href="https://www.nature.com/articles/s41586-023-06031-6">paper</a>.
     </div>
 </body>
 </html>
