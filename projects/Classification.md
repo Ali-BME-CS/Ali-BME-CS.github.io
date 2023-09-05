@@ -1,52 +1,63 @@
 ---
 layout: project
 type: project
-image:  img/8.png
-title: "Dimension Reduction"
+image:  img/10.png
+title: "Supervised classification of sleep events suitable for a minimized home-operated recording system"
 date: 
 published: true
 labels:
   - Machine Learning
   - Signal Processing
   - Deep Learning
-summary: "Dimension reduction is a fundamental technique in AI and deep learning that plays a crucial role in simplifying complex data representations."
+summary: "an innovative non-invasive recording device leveraging respiratory rate, SpO2, and heart rate data to accurately classify sleep apnea, arousal, and hypopnea events, outperforming existing methods with impressive AUC values."
 ---
 <html>
+
 <head>
-    <title>Dimension Reduction in AI and Deep Learning</title>
+    <title>Innovative Approach to Sleep Apnea Detection and Classification</title>
 </head>
 <body>
   <div class="text-center p-4">
-  <img width="200px" src="../img/5.png" class="img-thumbnail" >
+  <img width="200px" src="../img/10.png" class="img-thumbnail" >
 </div>
 
-<h1>Dimension Reduction in AI and Deep Learning</h1>
-    <div class="container">
-        <h2>Introduction</h2>
- 
-    <p>Dimension reduction is a fundamental technique in AI and deep learning that plays a crucial role in simplifying complex data representations. In AI, especially in tasks like image and text processing, data often contains a vast number of features or dimensions, which can lead to challenges such as increased computational complexity and overfitting. Dimension reduction methods aim to mitigate these issues by transforming high-dimensional data into a lower-dimensional space while preserving essential information.</p>
 
-    <p>One widely used dimension reduction technique in deep learning is Principal Component Analysis (PCA). PCA identifies the directions in the data that capture the most variance and projects the data onto a lower-dimensional subspace, allowing for a more compact representation. This technique is particularly useful in image and feature engineering tasks, where it can reduce the computational burden and improve model performance.</p>
 
-    <p>In deep learning, autoencoders are another popular dimension reduction approach. Autoencoders consist of an encoder network that compresses the input data into a lower-dimensional representation (latent space) and a decoder network that reconstructs the original data from this representation. By training autoencoders, models can learn to capture the most important features of the data, effectively reducing its dimensionality while preserving critical information. This is invaluable in applications like image denoising and data compression, where dimension reduction aids in efficient storage and transmission of data.</p>
-        
-        <h2>Learnable latent embeddings for joint behavioral and neural analysis</h2>
-        <p>It is a research paper by Steffen Schneider, Jin Hwa Lee, and Mackenzie Weygandt Mathis, published in Nature in May 20231. The paper proposes a novel method called CEBRA, which stands for Consistent EmBeddings of high-dimensional Recordings using Auxiliary variables. The method uses self-supervised learning to jointly analyze behavioral and neural data in a non-linear way, and produces latent spaces that reveal underlying correlates of behavior. The paper demonstrates the utility of CEBRA for various datasets and tasks in neuroscience, such as mapping of space, kinematic features, and natural movies.</p>
-        <img class="img-fluid" src="../img/6.png">
-        <p>Neuroscience is a field that aims to understand how the brain generates behavior. However, analyzing the complex and high-dimensional data from behavioral and neural experiments is a challenging task. Traditional methods often rely on linear models or hand-crafted features, which may not capture the non-linear and dynamic relationships between behavior and neural activity. In this paper, the authors propose a novel method called CEBRA, which stands for Consistent EmBeddings of high-dimensional Recordings using Auxiliary variables. CEBRA uses self-supervised learning to jointly analyze behavioral and neural data in a non-linear way and produces latent spaces that reveal underlying correlates of behavior. CEBRA leverages auxiliary variables, such as time or stimulus identity, to enforce consistency across different modalities and conditions. The authors demonstrate the utility of CEBRA for various datasets and tasks in neuroscience, such as mapping of space, kinematic features, and natural movies. They show that CEBRA can discover meaningful latent factors that are shared or specific to behavior and neural activity and can be used for downstream analysis such as decoding or clustering.</p>
-        <video class="img-fluid" controls>
-            <source src="../img/41586_2023_6031_MOESM4_ESM.mp4" type="video/mp4">
-        </video>
-        <h2> My project</h2>
-<p>This project focuses on developing a novel approach for EEG source separation by combining Independent Component Analysis (ICA) with deep learning techniques. We aim to create a learnable latent space that can effectively extract and represent the source signals from EEG data.</p>
+<body>
 
-<p>Our methodology involves utilizing self-supervised learning techniques, specifically a contrastive learning objective, to enhance the separation of EEG source signals. By leveraging this approach, we seek to uncover meaningful patterns and correlations within the EEG data, ultimately improving our ability to distinguish and analyze individual source components.</p>
+<h1>Innovative Approach to Sleep Apnea Detection and Classification</h1>
 
-<p>This project represents an innovative step towards improving EEG source separation, with potential applications in neuroscience research, brain-computer interfaces, and clinical diagnostics.</p>
-<img class="img-fluid" src="../img/7.png">
+<p><strong>Introduction</strong></p>
 
-        <hr>
-        You can find the paper here: <a href="https://www.nature.com/articles/s41586-023-06031-6">paper</a>.
+<p>Sleep apnea is a common sleep disorder that affects millions of people worldwide. It is characterized by recurrent interruptions in breathing during sleep, leading to fragmented sleep patterns and a range of health issues. Accurate detection and classification of sleep apnea events are crucial for effective diagnosis and treatment. In this essay, we will explore a groundbreaking research paper that presents an innovative approach to addressing this challenge by utilizing non-invasive recording devices and advanced machine learning techniques.</p>
+
+<p><strong>The Paper's Approach</strong></p>
+
+<p>The paper under discussion introduces a novel method for detecting and classifying sleep apnea, arousal, and hypopnea events. Instead of invasive procedures or costly equipment, the authors propose using a non-invasive recording device that relies on three key physiological signals: respiratory rate, SpO2 (oxygen saturation), and heart rate (HR). These signals are fundamental in understanding respiratory effort and function during sleep.</p>
+
+<p><strong>Data Source and Preprocessing</strong></p>
+
+<p>To validate their approach, the researchers based their study on the APPLES dataset, a publicly available repository containing recordings of 120 patients with sleep apnea who underwent overnight polysomnography. The paper details their data preprocessing steps, which included extracting time and frequency domain features from the respiratory signals. They used wavelet decomposition and denoising techniques to enhance the quality of the abdomen effort signal, ensuring accurate and reliable data for analysis.</p>
+
+<p><strong>Machine Learning Models</strong></p>
+
+<p>One of the strengths of this research lies in its application of machine learning models, specifically the support vector machine (SVM) and the gradient boosting algorithm (XGBoost). The authors employed grid search for hyperparameter optimization, a technique to fine-tune the models for optimal performance. The results demonstrated the power of these models in accurately classifying sleep apnea events.</p>
+
+<p><strong>Performance Metrics</strong></p>
+
+<p>The paper evaluates the performance of their approach using Receiver Operating Characteristic (ROC) curves and other metrics. Notably, the overall area under the curve (AUC) reached an impressive 0.89, showcasing the effectiveness of their classification method. Additionally, the XGBoost model achieved an accuracy of 0.8673 and an F1-score of 0.8670, indicating robust performance in distinguishing between different sleep events.</p>
+
+<p><strong>Comparison with Existing Methods</strong></p>
+
+<p>To validate the superiority of their approach, the authors compared their results with existing methods that utilize different vital signals, such as SpO2 and HR. The comparison revealed that their approach consistently outperformed existing techniques, with higher AUC values for apnea (0.9), arousal (0.88), and hypopnea (0.82) using SpO2 signals, and even more impressive values using HR signals (apnea 0.92, arousal 0.91, and hypopnea 0.86). This suggests that their method is not only innovative but also more accurate in classifying sleep apnea-related events.</p>
+
+<p><strong>Conclusion</strong></p>
+
+<p>The paper discussed in this essay presents a pioneering approach to sleep apnea detection and classification. By utilizing non-invasive recording devices and machine learning models, the researchers have achieved remarkable results, outperforming existing methods in accurately identifying sleep apnea, arousal, and hypopnea events. This work has significant implications for the field of sleep medicine, offering a non-invasive and effective solution for diagnosing and managing sleep disorders, ultimately improving the quality of life for individuals affected by sleep apnea. As technology and research in this area continue to advance, we can expect further innovations that will enhance our understanding and treatment of sleep-related health issues.</p>
+
+</body>
+</html>
+
     </div>
 </body>
 </html>
